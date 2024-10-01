@@ -1,0 +1,10 @@
+.venv/
+*.pyc
+.vscode/
+config.py
+backend/config.py
+config.py
+backend/*.json
+backend/backups/
+backend/.DS_Store/
+.DS_Store

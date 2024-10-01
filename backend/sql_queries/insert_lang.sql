@@ -1,0 +1,1 @@
+INSERT INTO langs (lang) VALUES (%s) ON CONFLICT(lang) DO NOTHING RETURNING lang_id;

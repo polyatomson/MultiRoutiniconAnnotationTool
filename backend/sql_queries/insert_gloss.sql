@@ -1,0 +1,1 @@
+INSERT INTO glosses (gloss, lex, class) VALUES (%s, %s, %s) RETURNING gloss_id;

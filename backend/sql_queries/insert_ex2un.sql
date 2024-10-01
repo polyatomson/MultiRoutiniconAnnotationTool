@@ -1,0 +1,1 @@
+INSERT INTO expressions2units (expr_id, unit_id, place) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING;

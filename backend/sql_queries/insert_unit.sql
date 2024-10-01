@@ -1,0 +1,1 @@
+INSERT INTO units (unit, lang_id, lemma, pos, realization, glossing) VALUES (%s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING RETURNING unit_id;

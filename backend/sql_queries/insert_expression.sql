@@ -1,0 +1,1 @@
+INSERT INTO expressions (expr_full, glossing, lang_id) VALUES (%s, %s, %s) RETURNING expr_id;

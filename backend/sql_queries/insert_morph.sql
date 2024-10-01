@@ -1,0 +1,1 @@
+INSERT INTO morphs (morph, lang_id, glosses) VALUES (%s, %s, %s) RETURNING morph_id;

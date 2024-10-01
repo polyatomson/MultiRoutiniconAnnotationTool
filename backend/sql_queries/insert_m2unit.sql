@@ -1,0 +1,1 @@
+INSERT INTO units2morphs (morph_id, unit_id, place) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING;

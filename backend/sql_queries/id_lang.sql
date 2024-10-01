@@ -1,0 +1,1 @@
+SELECT lang_id FROM langs WHERE lang=%s;

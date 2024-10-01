@@ -1,0 +1,1 @@
+SELECT expr_id FROM expressions WHERE expr_full=%s and glossing=%s AND lang_id=%s;

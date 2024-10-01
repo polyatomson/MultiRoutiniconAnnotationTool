@@ -1,0 +1,1 @@
+SELECT unit_id FROM units WHERE unit=%s AND lang_id=%s AND lemma=%s AND pos=%s AND realization=%s AND glossing=%s;

@@ -1,0 +1,1 @@
+SELECT gloss_id FROM glosses WHERE gloss=%s AND lex=%s;

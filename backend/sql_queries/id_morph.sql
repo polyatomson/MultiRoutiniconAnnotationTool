@@ -1,0 +1,1 @@
+SELECT morph_id FROM morphs WHERE morph=%s AND lang_id=%s AND glosses=%s;

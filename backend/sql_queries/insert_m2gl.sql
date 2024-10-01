@@ -1,0 +1,1 @@
+INSERT INTO morph2glosses (morph_id, gloss_id) VALUES (%s, %s) ON CONFLICT DO NOTHING;

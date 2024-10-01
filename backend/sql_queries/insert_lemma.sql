@@ -1,0 +1,1 @@
+INSERT INTO lemmas (lemma, lang_id, pos) VALUES (%s, %s, %s) RETURNING lemma_id;
